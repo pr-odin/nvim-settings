@@ -4,6 +4,17 @@ return {
     -- Enable `lukas-reineke/indent-blankline.nvim`
     -- See `:help ibl`
     main = 'ibl',
-    opts = {},
+    opts = {
+      indent = {
+        char = '»',
+        -- if I REALLY want to do smth
+        -- might be useful later
+        -- char = { '»', '>', '3', '4' },
+      },
+      scope = {
+        enabled = false,
+        char = '>',
+      },
+    },
   },
 }
